@@ -23,7 +23,7 @@ requiredMemInKB=2000000        # 2 GB RAM, ideally it can be 2097152 KB
 # temp=`grep MemFree $1`
 # totalMemInKB=${temp:9:16}
 
-totalMemInKB=`awk '/^MemFree/ {print($2);}' <(cat $1)`
+totalMemInKB=`awk '/^MemFree/ {printf("%u",$2);}' <(cat $1)`
 
 
 if test $totalMemInKB -ge $requiredMemInKB
