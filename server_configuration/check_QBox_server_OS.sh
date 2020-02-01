@@ -20,7 +20,6 @@ requiredUbuntuVersion=18       # Ubuntu verison 18.0
     # 2) Start the expression to populate the variable with "cat $1" which is the command line filename input. Check the Usage above. 
 
 linuxType=`awk '/^NAME/ {print substr($1, 7, length($1)-7)}' <(cat $1)`
-echo $linuxType
 
 
 if [ "$linuxType" = "$requiredOS1" ] || [ "$linuxType" = "$requiredOS2" ]
@@ -40,7 +39,6 @@ fi
     # 4) Execute the script before submission and confirm the output 
 
 ubuntuVersion=`awk '/^VERSION=/ {print substr($1, 10, 2)}' <(cat $1)`
-echo $ubuntuVersion
 
 
 if test $ubuntuVersion -ge $requiredUbuntuVersion

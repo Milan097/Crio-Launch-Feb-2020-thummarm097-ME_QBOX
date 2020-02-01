@@ -22,7 +22,6 @@ requiredCPUSpeedInMHz=1000     # 1 GHz
     # 4) Execute the script before submission and confirm the output 
 
 cpuSpeedInMHz=`awk 'BEGIN{a=0}{if ($1>0+a) a=$1} END{print a}' <(awk '/^cpu[ ]MHz/ {printf("%u\\n",$4);}' <(cat $1))`
-echo $cpuSpeedInMHz
 
 
 if test $cpuSpeedInMHz -ge $requiredCPUSpeedInMHz

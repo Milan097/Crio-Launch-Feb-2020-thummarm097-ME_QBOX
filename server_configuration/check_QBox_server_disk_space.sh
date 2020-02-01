@@ -14,7 +14,6 @@ requiredDiskSpaceInMB=4096     # 4 GB Disk Space
     # 2) Execute the script before submission and confirm the output
 
 diskSpaceInMB=`awk '/[/]$/ {print($4);}' <(df -m)`
-echo $diskSpaceInMB
 
 if test $diskSpaceInMB -ge $requiredDiskSpaceInMB
    then
