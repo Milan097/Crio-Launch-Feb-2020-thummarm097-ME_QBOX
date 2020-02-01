@@ -7,10 +7,8 @@
     # 3) Execute the script before submission and confirm the output
 
     #eval echo ~$USER/*
+ 
 
-    for files in "~$USER/*" :
-        do 
-           eval echo $files
-           printf "\n"
-
+    for entry in `ls $/home/crio_user/`*; do
+        echo $entry
     done
