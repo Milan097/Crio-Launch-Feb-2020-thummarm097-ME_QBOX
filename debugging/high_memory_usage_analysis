@@ -1,0 +1,3 @@
+While testing for version 5 it will take more memory usage than the benchmark..
+
+i check it using "free -m" command and by "top" and "ps -p <pid> -o %cpu,%mem,cmd" command

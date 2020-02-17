@@ -1,0 +1,5 @@
+I have used "get <file-name>" to download file from server..
+
+but i got
+    "500 OOPS: 421 Service not available, remote server has closed connection"
+while downloading file so here file_transfer is not possible as server is being closed...

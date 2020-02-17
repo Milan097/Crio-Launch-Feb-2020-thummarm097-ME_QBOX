@@ -1,0 +1,12 @@
+I have started each ftp server one by one and then start ftp connection and upload and download 1GB file from server.
+
+for CPU usage : "top" command OR "ps -p <pid> -o %cpu,%mem,cmd" command
+
+And noticed time from ftp response.
+
+For,
+
+    vsftpd_v4 version CPU usage for Upload of 1GB file : 99-100%
+    vsftpd_v4 version CPU usage for Upload of 1GB file : 99-100%
+
+Here download time CPU usage is 2X or more than QBox_benchmark.

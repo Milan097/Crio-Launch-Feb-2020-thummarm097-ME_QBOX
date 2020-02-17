@@ -1,0 +1,3 @@
+local_umask=044
+
+file_open_mode=0644
