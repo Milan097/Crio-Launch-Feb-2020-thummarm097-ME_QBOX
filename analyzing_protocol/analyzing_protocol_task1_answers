@@ -1,0 +1,14 @@
+Internet Layer
+No
+Yes
+PING 3.6.230.149 (3.6.230.149) 56(84) bytes of data.
+64 bytes from 3.6.230.149: icmp_seq=1 ttl=51 time=16.5 ms
+64 bytes from 3.6.230.149: icmp_seq=2 ttl=51 time=16.6 ms
+64 bytes from 3.6.230.149: icmp_seq=3 ttl=51 time=16.7 ms
+64 bytes from 3.6.230.149: icmp_seq=4 ttl=51 time=16.4 ms
+64 bytes from 3.6.230.149: icmp_seq=5 ttl=51 time=16.1 ms
+64 bytes from 3.6.230.149: icmp_seq=6 ttl=51 time=16.6 ms
+^C
+--- 3.6.230.149 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5005ms
+rtt min/avg/max/mdev = 16.179/16.539/16.716/0.192 ms
